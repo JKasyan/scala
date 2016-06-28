@@ -6,6 +6,7 @@ import java.util.Date
  * Created by evgen on 06.03.16.
  */
 class Conditional {
+  override def toString(): String = "Conditional"
 }
 
 object Conditional {

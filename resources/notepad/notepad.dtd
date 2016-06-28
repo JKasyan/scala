@@ -1,0 +1,14 @@
+<!DOCTYPE notepad [
+
+        <!ELEMENT notepad (note+)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT tel (#PCDATA)>
+        <!ELEMENT url (#PCDATA)>
+        <!ELEMENT note (name, tel, url, address)>
+        <!ATTLIST note login CDATA #REQUIRED>
+        <!ELEMENT address (street, city, country)>
+        <!ELEMENT street (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT country (#PCDATA)>
+
+]>

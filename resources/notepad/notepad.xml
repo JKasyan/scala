@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<notepad>
+    <note login="rom">
+        <name>John</name>
+        <tel>123</tel>
+        <url>http://www.b.com</url>
+        <address>
+            <street>Balzaka</street>
+            <city>Kyiv</city>
+            <country>UA</country>
+        </address>
+    </note>
+    <note login="rom">
+        <name>John</name>
+        <tel>123</tel>
+        <url>http://www.b.com</url>
+        <address>
+            <street>Chechova</street>
+            <city>Grebinka</city>
+            <country>UA</country>
+        </address>
+    </note>
+</notepad>

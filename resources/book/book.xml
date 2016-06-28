@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE book [
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT caption (#PCDATA)>
+        <!ELEMENT arcticle (#PCDATA)>
+        <!ATTLIST arcticle
+                id ID #REQUIRED
+                about CDATA #IMPLIED
+                type (actual | review | teach) 'actual'
+                >
+        <!ELEMENT book (price, author+, arcticle?, caption?)>
+        <!ENTITY company 'Sun Microsystems'>
+        ]>
+
+<book>
+    <price>100</price>
+    <author>John Smith</author>
+    <author>Eva</author>
+    <arcticle id="John" type="review">&company;</arcticle>
+</book>

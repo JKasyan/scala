@@ -11,6 +11,7 @@ object Functions {
     println("Factorial: " + fact(5))
     println("Default parameter: " + decorate("Decorate"))
     println(decorate(left = "<<<", str = "Hello", right = ">>>"))
+    println(decorate("ooo", right = "<<<"))
     println("Sum: " + sum(5, 2))
     println("Sum: " + sum(1 to 1000: _*))
     println("Recursive sum: " + recursiveSum(1, 2, 3, 4))
@@ -72,6 +73,10 @@ object Functions {
       }
     }
     result
+  }
+
+  def get():String = {
+    "Hello"
   }
 
 }

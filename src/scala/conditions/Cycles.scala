@@ -43,6 +43,8 @@ object Cycles {
       k -= 1
     }
     println("Returned from cycle while: " + f)
+    println("Type of returned while " + f.getClass)
+    println("void: " + ().getClass)
     result
   }
 
@@ -88,6 +90,10 @@ object Cycles {
   private def genString(s:String, d:Int) :Unit = {
     val v = for(i <- s; j <- 0 to d) yield i + j
     println(v)
+  }
+
+  protected def void() : Unit = {
+    ()
   }
 
 }
